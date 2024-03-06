@@ -2,6 +2,7 @@
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  color: #000;
 }
 
 .transactionHistory tbody {
@@ -19,7 +20,7 @@
 
 .transactionHistory th {
   background-color: #212121;
-  color: #fff;
+  color: #f7ecec;
   font-weight: 700;
 }
 
