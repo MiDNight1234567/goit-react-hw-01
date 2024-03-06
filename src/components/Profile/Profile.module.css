@@ -8,8 +8,6 @@
   transition: all 0.2s ease-in-out;
   margin-bottom: 100px;
   background-color: bisque;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .profile:hover {
