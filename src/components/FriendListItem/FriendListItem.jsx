@@ -1,6 +1,6 @@
 import css from "./FriendList.module.css";
 
-const FriendListItem = ({ avatar, isOnline, name }) => {
+const FriendList = ({ avatar, isOnline, name }) => {
   return (
     <li className={css.item}>
       <img className={css.avatar} src={avatar} alt={name} width="48" />
@@ -12,4 +12,4 @@ const FriendListItem = ({ avatar, isOnline, name }) => {
   );
 };
 
-export default FriendListItem;
+export default FriendList;
